@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="<?php echo base_url()?>assets/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
   <link href="<?php echo base_url()?>assets/css/enkripcss.css" rel="stylesheet" id="bootstrap-css">
   <script src="<?php echo base_url()?>assets/js/enkrip.js"></script>
+	<link rel="stylesheet" href="<?php echo base_url()?>assets/css/headerstyle.css">
   <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
   
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -56,9 +57,14 @@
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">
       <!-- Sidebar toggle button-->
-      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-        <span class="sr-only">Toggle navigation</span> 
-      </a>
+      <div class="navbar-header">
+					<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+						<span class="sr-only">Toggle navigation</span> 
+					</a>
+					<div class="navbar-brand">
+						<p class="schoole-name">SMPN 2 Kudus</p>
+					</div>
+				</div>
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">           
           
